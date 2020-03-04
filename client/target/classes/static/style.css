@@ -1,0 +1,47 @@
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 65px;
+    font-size: 20px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-control {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-bottom: 20px;
+    width: 265px;
+    height: 55px;
+}
+
+input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block {
+    width: 100%;
+    margin: 5px;
+}
+
+element.style {
+    max-height: 306px;
+    overflow: hidden;
+    min-height: 42px;
+    position: relative;
+    transform: translate(-50%,0);
+    top: 0px;
+    left: 50%;
+    will-change: transform;
+}
+
+.btn-link, .btn-link:active, .btn-link:focus, .btn-link:hover {
+    position: relative;
+    border-color: transparent;
+    font-size: 19px;
+    padding-left: 20px;
+}
