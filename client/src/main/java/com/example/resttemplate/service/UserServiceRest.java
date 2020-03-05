@@ -2,6 +2,7 @@ package com.example.resttemplate.service;
 
 import com.example.resttemplate.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -9,6 +10,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestOperations;
+import org.springframework.web.client.RestTemplate;
 //import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
@@ -16,12 +18,12 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-public class UserServiceRest implements UserDetailsService {
+public class UserServiceRest /*implements UserDetailsService*/ {
     private RestOperations restOperations;
     private String serverUrl = "http://localhost:8080";
 
     @Autowired
-    public void setRestOperations(RestOperations restOperations) {
+    public void setRestOperations(RestTemplate restOperations) {
         this.restOperations = restOperations;
     }
 
@@ -70,19 +72,19 @@ public class UserServiceRest implements UserDetailsService {
         );
     }
 
-    @Override
-    public UserDetails loadUserByUsername(String login) throws UsernameNotFoundException {
-        HashMap<String, String> params = new HashMap<>();
-        params.put("login", login);
-
-        User user = restOperations.getForObject(
-                serverUrl + "/admin/by_login/{login}",
-                User.class,
-                params
-        );
-        if (user == null) {
-            throw new UsernameNotFoundException("User not found");
-        }
-        return user;
-    }
+//    @Override
+//    public UserDetails loadUserByUsername(String login) throws UsernameNotFoundException {
+//        HashMap<String, String> params = new HashMap<>();
+//        params.put("login", login);
+//
+//        User user = restOperations.getForObject(
+//                serverUrl + "/admin/by_login/{login}",
+//                User.class,
+//                params
+//        );
+//        if (user == null) {
+//            throw new UsernameNotFoundException("User not found");
+//        }
+//        return user;
+//    }
 }

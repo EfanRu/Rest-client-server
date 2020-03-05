@@ -55,7 +55,7 @@ public class AdminRestController {
     }
 
     @GetMapping(value = "/admin/by_login/{login}")
-    public User getUserByLogin(@ModelAttribute("login") String login) {
+    public User getUserByLogin(@PathVariable String login) {
         return userService.getUserByLogin(login);
     }
 
