@@ -17,7 +17,7 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 //    @Autowired
 //    private UserService userService;
-
+////
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
         return new BCryptPasswordEncoder();
@@ -39,7 +39,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
         auth
                 .inMemoryAuthentication()
                 .withUser("admin")
-                .password("admin")
+                .password(new BCryptPasswordEncoder().encode("admin"))
                 .roles("ADMIN");
     }
 

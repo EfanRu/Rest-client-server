@@ -35,29 +35,29 @@ import java.util.Map;
 
 @Controller
 public class LoginController {
-    private String url = "http://localhost:8080/";
-
-    private RestTemplate restTemplate = new RestTemplate(getClientHttpRequestFactory());
-
-    private HttpComponentsClientHttpRequestFactory getClientHttpRequestFactory() {
-        HttpComponentsClientHttpRequestFactory clientHttpRequestFactory = new HttpComponentsClientHttpRequestFactory();
-        clientHttpRequestFactory.setHttpClient(httpClient());
-        return clientHttpRequestFactory;
-    }
-
-    private HttpClient httpClient()
-    {
-        CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
-
-        credentialsProvider.setCredentials(AuthScope.ANY,
-                new UsernamePasswordCredentials("admin", "admin"));
-
-        HttpClient client = HttpClientBuilder
-                .create()
-                .setDefaultCredentialsProvider(credentialsProvider)
-                .build();
-        return client;
-    }
+//    private String url = "http://localhost:8080/";
+//
+//    private RestTemplate restTemplate = new RestTemplate(getClientHttpRequestFactory());
+//
+//    private HttpComponentsClientHttpRequestFactory getClientHttpRequestFactory() {
+//        HttpComponentsClientHttpRequestFactory clientHttpRequestFactory = new HttpComponentsClientHttpRequestFactory();
+//        clientHttpRequestFactory.setHttpClient(httpClient());
+//        return clientHttpRequestFactory;
+//    }
+//
+//    private HttpClient httpClient()
+//    {
+//        CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
+//
+//        credentialsProvider.setCredentials(AuthScope.ANY,
+//                new UsernamePasswordCredentials("admin", "admin"));
+//
+//        HttpClient client = HttpClientBuilder
+//                .create()
+//                .setDefaultCredentialsProvider(credentialsProvider)
+//                .build();
+//        return client;
+//    }
 //
 //    private RestTemplate restTemplate;
 //
@@ -70,7 +70,7 @@ public class LoginController {
     @GetMapping({"/", "/login"})
     public ModelAndView login() {
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("user");
+        mav.setViewName("login");
         return mav;
     }
 
@@ -87,11 +87,11 @@ public class LoginController {
         mav.setViewName("adminAll");
         return mav;
     }
-
-    @GetMapping("/admin/all")
-    public ResponseEntity<String> adminAll() {
-        return restTemplate.getForEntity(url + "/admin/all", String.class);
-    }
+//
+//    @GetMapping("/admin/all")
+//    public ResponseEntity<String> adminAll() {
+//        return restTemplate.getForEntity(url + "/admin/all", String.class);
+//    }
 
 
     //
