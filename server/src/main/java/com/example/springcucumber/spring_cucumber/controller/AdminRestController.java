@@ -54,6 +54,11 @@ public class AdminRestController {
         return user;
     }
 
+    @GetMapping(value = "/admin/by_login/{login}")
+    public User getUserByLogin(@PathVariable String login) {
+        return userService.getUserByLogin(login);
+    }
+
     @DeleteMapping("/admin/{id}")
     public boolean delUser(@PathVariable String id) {
         return userService.deleteUser(id);

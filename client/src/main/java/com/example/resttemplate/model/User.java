@@ -1,5 +1,6 @@
 package com.example.resttemplate.model;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -16,6 +17,7 @@ public class User implements UserDetails {
     private String password;
     private Long phoneNumber;
     private Role role;
+    private String username;
     private boolean accountNonExpired = true;
     private boolean accountNonLocked = true;
     private boolean credentialsNonExpired = true;
@@ -31,6 +33,7 @@ public class User implements UserDetails {
         this.role = role;
         this.login = login;
         this.password = password;
+        this.username = login;
     }
 
     public User(String firstName, String lastName, String login, String password, Long phoneNumber, Role role) {
@@ -41,8 +44,10 @@ public class User implements UserDetails {
         this.id = null;
         this.login = login;
         this.password = password;
+        this.username = login;
     }
 
+    @JsonDeserialize(using = CustomAuthorityDeserializer.class)
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         Set<GrantedAuthority> authorities = new HashSet<>();
