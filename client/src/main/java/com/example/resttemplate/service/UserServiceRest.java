@@ -3,10 +3,7 @@ package com.example.resttemplate.service;
 import com.example.resttemplate.model.User;
 import com.example.resttemplate.model.UserDeserializer;
 import com.example.resttemplate.model.UserSerializer;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreType;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -15,17 +12,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
-//import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+//import org.springframework.web.servlet.ModelAndView;
 
 @Service
 @JsonSerialize(using = UserSerializer.class)
@@ -39,11 +35,6 @@ public class UserServiceRest implements UserDetailsService {
         this.restTemplate = restTemplate;
     }
 
-//    @Autowired
-//    public void setRestOperations(RestTemplate restOperations) {
-//        this.restOperations = restOperations;
-//    }
-
     public List<User> getAllUsers() {
         return restTemplate.exchange(
                 serverUrl + "/admin/all",
@@ -54,7 +45,7 @@ public class UserServiceRest implements UserDetailsService {
         ).getBody();
     }
 
-    public String addUser(User user) {
+    public User addUser(User user) {
         ObjectMapper mapper = new ObjectMapper();
         SimpleModule module = new SimpleModule();
         String json = "";
@@ -67,11 +58,11 @@ public class UserServiceRest implements UserDetailsService {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-        return restTemplate.postForObject(
+        return restTemplate.postForEntity(
                 serverUrl + "/admin",
                 json,
-                String.class
-        );
+                User.class
+        ).getBody();
     }
 
     public User getUserById(String id) {
@@ -85,9 +76,22 @@ public class UserServiceRest implements UserDetailsService {
     }
 
     public void updateUser(User user) {
+        ObjectMapper mapper = new ObjectMapper();
+        SimpleModule module = new SimpleModule();
+        String json = "";
+
+        module.addSerializer(User.class, new UserSerializer());
+        mapper.registerModule(module);
+
+        try {
+            json = mapper.writeValueAsString(user);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+
         restTemplate.put(
                 serverUrl + "/admin/" + user.getId().toString(),
-                user
+                json
         );
     }
 

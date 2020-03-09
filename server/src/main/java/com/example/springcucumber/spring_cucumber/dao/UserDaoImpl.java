@@ -23,8 +23,7 @@ public class UserDaoImpl implements UserDao {
     @Override
     public List<User> getAllUsers() {
         Query query = entityManager.createQuery("FROM User u");
-        List<User> list = query.getResultList();
-        return list;
+        return (List<User>) query.getResultList();
     }
 
     @Transactional
@@ -126,6 +125,6 @@ public class UserDaoImpl implements UserDao {
         } catch (RuntimeException e) {
             e.printStackTrace();
         }
-        return null;
+        return new User();
     }
 }
