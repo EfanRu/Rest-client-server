@@ -1,7 +1,9 @@
 package com.example.resttemplate.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.security.core.GrantedAuthority;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Role implements GrantedAuthority {
     private Integer id;
     private String name;

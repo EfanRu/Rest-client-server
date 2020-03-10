@@ -1,17 +1,20 @@
 package com.example.springcucumber.spring_cucumber.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "roles")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Role implements GrantedAuthority {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     @Column(name = "name")
     private String name;
+    @JsonIgnoreProperties(ignoreUnknown = true)
     private String authority;
 
     public Role() {}

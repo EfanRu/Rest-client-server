@@ -2,6 +2,7 @@ package com.example.springcucumber.spring_cucumber.controller;
 
 import com.example.springcucumber.spring_cucumber.model.User;
 import com.example.springcucumber.spring_cucumber.service.UserService;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,21 +28,24 @@ public class AdminRestController {
     }
 
     @PostMapping("/admin")
-    public ResponseEntity<?> addUser(@Valid @RequestBody String user, Errors errors) {
-        ObjectMapper mapper = new ObjectMapper();
-        User userDeserialization = new User();
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public ResponseEntity<?> addUser(@Valid @RequestBody User user, Errors errors) {
+//        ObjectMapper mapper = new ObjectMapper();
+//        User userDeserialization = new User();
+//
+//        try {
+//            userDeserialization = mapper.readValue(user, User.class);
 
-        try {
-            userDeserialization = mapper.readValue(user, User.class);
-
-            if (userService.addUser(userDeserialization)) {
+//            if (userService.addUser(userDeserialization)) {
+            if (userService.addUser(user)) {
                 return ResponseEntity.ok().body(user);
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
-        return ResponseEntity.unprocessableEntity().body(userDeserialization);
+//        return ResponseEntity.unprocessableEntity().body(userDeserialization);
+        return ResponseEntity.unprocessableEntity().body(user);
     }
 
     @GetMapping("/admin/all")
@@ -60,20 +64,23 @@ public class AdminRestController {
     }
 
     @PutMapping(value = "/admin/{id}")
-    public ResponseEntity<?> editUser(@RequestBody String user) {
-        ObjectMapper mapper = new ObjectMapper();
-        User userDeserialization = new User();
+    public ResponseEntity<?> editUser(@RequestBody User user) {
+//        ObjectMapper mapper = new ObjectMapper();
+//        User userDeserialization = new User();
+//
+//        try {
+//            userDeserialization = mapper.readValue(user, User.class);
 
-        try {
-            userDeserialization = mapper.readValue(user, User.class);
-
-            if (userService.updateUser(userDeserialization)) {
-                return ResponseEntity.ok().body(userDeserialization);
+//            if (userService.updateUser(userDeserialization)) {
+            if (userService.updateUser(user)) {
+//                return ResponseEntity.ok().body(userDeserialization);
+                return ResponseEntity.ok().body(user);
             }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return ResponseEntity.unprocessableEntity().body(userDeserialization);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+        return ResponseEntity.unprocessableEntity().body(user);
+//        return ResponseEntity.unprocessableEntity().body(userDeserialization);
     }
 
     @GetMapping(value = "/admin/by_login/{login}")
