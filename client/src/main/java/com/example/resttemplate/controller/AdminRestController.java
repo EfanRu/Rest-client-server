@@ -2,8 +2,6 @@ package com.example.resttemplate.controller;
 
 import com.example.resttemplate.model.User;
 import com.example.resttemplate.service.UserServiceRest;
-//import com.example.springboot.model.User;
-//import com.example.springboot.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +10,6 @@ import org.springframework.ui.ModelMap;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
-//import javax.validation.Valid;
 import javax.validation.Valid;
 import java.util.List;
 

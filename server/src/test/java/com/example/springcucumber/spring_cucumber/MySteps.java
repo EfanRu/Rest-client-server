@@ -32,8 +32,8 @@ public class MySteps {
     public void мы_авторизовались_под_админом() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         try {
-            driver.get("http://localhost:8080/logout");
-            driver.get("http://localhost:8080/login");
+            driver.get("http://localhost:8081/logout");
+            driver.get("http://localhost:8081/login");
             driver.findElement(By.name("username")).sendKeys(env.getRequiredProperty("db.default.admin.login"));
             driver.findElement(By.name("password")).sendKeys(env.getRequiredProperty("db.default.admin.password"));
             driver.findElement(By.className("btn")).click();

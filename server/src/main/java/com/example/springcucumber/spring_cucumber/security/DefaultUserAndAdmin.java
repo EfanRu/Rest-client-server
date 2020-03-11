@@ -14,13 +14,17 @@ import org.springframework.stereotype.Component;
 @PropertySource("classpath:application.properties")
 @Order(3)
 public class DefaultUserAndAdmin {
-    @Autowired
     private UserService userService;
-    @Autowired
     private Environment env;
 
+    @Autowired
+    public DefaultUserAndAdmin(UserService userService, Environment env) {
+        this.userService = userService;
+        this.env = env;
+    }
+
     @Bean
-    public void DefaultUserAndAdmin() {
+    public void setDefaultUserAndAdmin() {
         User user = new User();
         user.setFirstName("Default user");
         user.setLastName("Default user");

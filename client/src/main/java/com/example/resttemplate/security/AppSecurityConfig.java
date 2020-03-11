@@ -15,10 +15,12 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 @Configuration
 @EnableWebSecurity
 public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
-//    @Autowired
-//    private UserService userService;
+    private final UserServiceRest userService;
+
     @Autowired
-    private UserServiceRest userService;
+    public AppSecurityConfig(UserServiceRest userService) {
+        this.userService = userService;
+    }
 
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
@@ -38,20 +40,12 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(userService).passwordEncoder(bCryptPasswordEncoder());
-//        auth
-//                .inMemoryAuthentication()
-//                .withUser("admin")
-//                .password(bCryptPasswordEncoder().encode("admin"))
-//                .roles("ADMIN");
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .csrf().disable()
-//                .authorizeRequests().anyRequest().authenticated()
-//                .and()
-//                .httpBasic();
                 .authorizeRequests()
                     .antMatchers("/admin/**").hasRole("ADMIN")
                     .antMatchers("/user/**").authenticated()

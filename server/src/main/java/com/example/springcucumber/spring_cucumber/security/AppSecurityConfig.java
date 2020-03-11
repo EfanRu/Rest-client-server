@@ -15,9 +15,6 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 @Configuration
 @EnableWebSecurity
 public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
-    @Autowired
-    private UserService userService;
-
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
         return new BCryptPasswordEncoder();
@@ -35,7 +32,6 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-//        auth.userDetailsService(userService).passwordEncoder(bCryptPasswordEncoder());
         auth
                 .inMemoryAuthentication()
                 .withUser("admin")
@@ -50,19 +46,5 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests().anyRequest().authenticated()
                 .and()
                 .httpBasic();
-//                .authorizeRequests()
-//                    .antMatchers("/admin/**").hasRole("ADMIN")
-//                    .antMatchers("/user/**").authenticated()
-//                    .antMatchers("/login").anonymous()
-//                .and().formLogin()
-//                    .loginPage("/login")
-//                    .loginProcessingUrl("/authorization")
-//                    .successHandler(myAuthenticationSuccessHandler())
-//                .and().logout()
-//                    .permitAll()
-//                    .logoutUrl("/logout")
-//                    .logoutSuccessUrl("/login")
-//                    .invalidateHttpSession(true)
-//                    .deleteCookies();
     }
 }
