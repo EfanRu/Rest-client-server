@@ -50,6 +50,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
                     .antMatchers("/admin/**").hasRole("ADMIN")
                     .antMatchers("/user/**").authenticated()
                     .antMatchers("/login").anonymous()
+                    .antMatchers("/error").anonymous()
                 .and().formLogin()
                     .loginPage("/login")
                     .loginProcessingUrl("/authorization")

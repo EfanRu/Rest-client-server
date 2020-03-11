@@ -1,19 +1,9 @@
 package com.example.resttemplate.service;
 
-import com.example.resttemplate.model.Role;
 import com.example.resttemplate.model.User;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.fasterxml.jackson.databind.module.SimpleModule;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
@@ -24,8 +14,6 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-//@JsonSerialize(using = UserSerializer.class)
-//@JsonDeserialize(using = UserDeserializer.class)
 public class UserServiceRest implements UserDetailsService {
     private RestTemplate restTemplate;
     private String serverUrl = "http://localhost:8080";
@@ -46,23 +34,6 @@ public class UserServiceRest implements UserDetailsService {
     }
 
     public User addUser(User user) {
-//        ObjectMapper mapper = new ObjectMapper();
-//        SimpleModule module = new SimpleModule();
-//        String json = "";
-//
-//        module.addSerializer(User.class, new UserSerializer());
-//        mapper.registerModule(module);
-//
-//        try {
-//            json = mapper.writeValueAsString(user);
-//        } catch (JsonProcessingException e) {
-//            e.printStackTrace();
-//        }
-//        return restTemplate.postForEntity(
-//                serverUrl + "/admin",
-//                json,
-//                User.class
-//        ).getBody();
         return restTemplate.postForEntity(
                 serverUrl + "/admin",
                 user,
@@ -81,19 +52,6 @@ public class UserServiceRest implements UserDetailsService {
     }
 
     public void updateUser(User user) {
-//        ObjectMapper mapper = new ObjectMapper();
-//        SimpleModule module = new SimpleModule();
-//        String json = "";
-//
-//        module.addSerializer(User.class, new UserSerializer());
-//        mapper.registerModule(module);
-//
-//        try {
-//            json = mapper.writeValueAsString(user);
-//        } catch (JsonProcessingException e) {
-//            e.printStackTrace();
-//        }
-
         restTemplate.put(
                 serverUrl + "/admin/" + user.getId().toString(),
                 user
@@ -111,31 +69,10 @@ public class UserServiceRest implements UserDetailsService {
     }
 
     @Override
-    public UserDetails loadUserByUsername(String login) throws UsernameNotFoundException {
-        HashMap<String, String> params = new HashMap<>();
-        params.put("login", login);
-
-//        ResponseEntity<String> user = restTemplate.getForEntity(
-//        ResponseEntity<User> user = restTemplate.getForEntity(
-//                serverUrl + "/admin/by_login/{login}",
-//                User.class,
-//                params
-//        );
-//        return user.getBody();
+    public User loadUserByUsername(String login) throws UsernameNotFoundException {
         return restTemplate.getForObject(
                 serverUrl + "/admin/by_login/" + login,
                 User.class
         );
-//        if (user.getBody() == null) {
-//            throw new UsernameNotFoundException("User not found");
-//        }
-//
-//        User mappedUser = new User();
-//        try {
-//            mappedUser = new ObjectMapper().readValue(user.getBody(), User.class);
-//        } catch (JsonProcessingException e) {
-//            e.printStackTrace();
-//        }
-//        return mappedUser;
     }
 }

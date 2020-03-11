@@ -1,5 +1,6 @@
 package com.example.springcucumber.spring_cucumber.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.security.core.GrantedAuthority;
 
@@ -14,7 +15,7 @@ public class Role implements GrantedAuthority {
     private Integer id;
     @Column(name = "name")
     private String name;
-    @JsonIgnoreProperties(ignoreUnknown = true)
+    @JsonIgnore
     private String authority;
 
     public Role() {}

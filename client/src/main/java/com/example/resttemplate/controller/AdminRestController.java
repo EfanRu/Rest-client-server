@@ -25,7 +25,7 @@ public class AdminRestController {
     }
 
     @PostMapping("/admin")
-    public ResponseEntity<?> addUser(@Valid @RequestBody User user, Errors errors) {
+    public ResponseEntity<User> addUser(@Valid @RequestBody User user, Errors errors) {
         if (userService.addUser(user) != null) {
             return ResponseEntity.ok().body(user);
         } else {
@@ -34,22 +34,22 @@ public class AdminRestController {
     }
 
     @GetMapping("/admin/all")
-    public List<?> allUsers() {
+    public List<User> allUsers() {
         return userService.getAllUsers();
     }
 
     @GetMapping("/admin/{id}")
-    public Object getUser(@Valid @ModelAttribute("id") String id, Errors errors) {
+    public User getUser(@Valid @ModelAttribute("id") String id, Errors errors) {
         return userService.getUserById(id);
     }
 
-    @RequestMapping(value = "/admin/edit", method = RequestMethod.GET)
-    public Object editUserPage(@ModelAttribute("id") String id, ModelMap model) {
+    @GetMapping(value = "/admin/edit")
+    public User editUserPage(@ModelAttribute("id") String id, ModelMap model) {
         return userService.getUserById(id);
     }
 
     @PutMapping(value = "/admin/{id}")
-    public Object editUser(@RequestBody User user) {
+    public User editUser(@RequestBody User user) {
         userService.updateUser(user);
         return user;
     }
