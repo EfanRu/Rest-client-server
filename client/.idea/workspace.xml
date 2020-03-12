@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13371492-0152-4462-a879-16cbb19cede7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_4_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/security/AuthProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/security/CustomUserInfoTokenService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/resttemplate_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/resttemplate_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_unknown.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resttemplate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/resttemplate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/ServletInitializer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/security/AppSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/security/AppSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/ServletInitializer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/AppSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/AppSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tut-spring-boot-oauth2-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -111,6 +107,7 @@
       <workItem from="1583432347270" duration="4934000" />
       <workItem from="1583740476658" duration="14637000" />
       <workItem from="1583992214531" duration="4104000" />
+      <workItem from="1584037695414" duration="4420000" />
     </task>
     <servers />
   </component>
@@ -136,45 +133,45 @@
     </state>
     <state x="524" y="141" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583386792143" />
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1583995661107" />
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1583997855792">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1584042667972">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583868413133" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584042667972" />
     <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583997855792" />
-    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1583997855791">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1584042667972">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583868413132" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584042667972" />
     <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583997855791" />
-    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1583997855791">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1584042667972">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583868413132" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584042667972" />
     <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583997855791" />
-    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1583997855792">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1584042667972">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583868413133" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584042667972" />
     <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583997855792" />
-    <state width="1320" height="175" key="GridCell.Tab.1.bottom" timestamp="1583997855794">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1584042667972">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583868413133" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584042667972" />
     <state width="1320" height="175" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583997855794" />
-    <state width="1320" height="175" key="GridCell.Tab.1.center" timestamp="1583997855793">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1584042667972">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583868413133" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584042667972" />
     <state width="1320" height="175" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1583997855793" />
-    <state width="1320" height="175" key="GridCell.Tab.1.left" timestamp="1583997855792">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1584042667972">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583868413133" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584042667972" />
     <state width="1320" height="175" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1583997855792" />
-    <state width="1320" height="175" key="GridCell.Tab.1.right" timestamp="1583997855793">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1584042667972">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583868413133" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584042667972" />
     <state width="1320" height="175" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1583997855793" />
     <state width="1320" height="219" key="GridCell.Tab.2.bottom" timestamp="1583936966720">
       <screen x="0" y="27" width="1366" height="741" />
