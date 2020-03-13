@@ -23,12 +23,14 @@ import org.springframework.security.oauth2.common.exceptions.InvalidTokenExcepti
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.OAuth2Request;
 import org.springframework.security.oauth2.provider.token.ResourceServerTokenServices;
+import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+@Component
 public class CustomUserInfoTokenService implements ResourceServerTokenServices {
     protected final Log logger = LogFactory.getLog(this.getClass());
     private String userInfoEndpointUrl;
@@ -93,21 +95,20 @@ public class CustomUserInfoTokenService implements ResourceServerTokenServices {
 
             User user = userService.loadUserByUsername(googleUsername);
 
-            if(user == null) {
+            if(user.getLogin().equals("")) {
                 user = new User();
                 user.setRole(new Role("user"));
+
+                user.setLogin(googleName);
+                user.setFirstName(googleUsername);
+                user.setLastName(googleName);
+                user.setPassword(passwordEncoder.encode("oauth2user"));
+
+                userService.addUser(user);
             }
-
-            user.setLogin(googleName);
-            user.setFirstName(googleUsername);
-            user.setLastName(googleName);
-            user.setPassword(passwordEncoder.encode("oauth2user"));
-
-            userService.addUser(user);
         }
 
-        if (map.containsKey("error"))
-        {
+        if (map.containsKey("error")) {
             this.logger.debug("userinfo returned error: " + map.get("error"));
             throw new InvalidTokenException(accessToken);
         }

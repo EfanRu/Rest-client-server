@@ -70,9 +70,12 @@ public class UserServiceRest implements UserDetailsService {
 
     @Override
     public User loadUserByUsername(String login) throws UsernameNotFoundException {
-        return restTemplate.getForObject(
+        User user = new User();
+        user.setLogin("");
+        user = restTemplate.getForObject(
                 serverUrl + "/admin/by_login/" + login,
                 User.class
         );
+        return user;
     }
 }

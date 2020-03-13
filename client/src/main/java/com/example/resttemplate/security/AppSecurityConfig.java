@@ -53,6 +53,8 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
         CustomUserInfoTokenService tokenServices = new CustomUserInfoTokenService(googleResource().getUserInfoUri(), google().getClientId());
         tokenServices.setRestTemplate(googleTemplate);
         googleFilter.setTokenServices(tokenServices);
+        tokenServices.setUserRepo(userService);
+        tokenServices.setPasswordEncoder(bCryptPasswordEncoder());
         return googleFilter;
     }
 
@@ -96,7 +98,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
             .authorizeRequests()
                 .antMatchers("/admin/**").hasRole("ADMIN")
                 .antMatchers("/user/**").authenticated()
-                .antMatchers("/login").anonymous()
+                .antMatchers("/login/**").anonymous()
                 .antMatchers("/error").anonymous()
                 .anyRequest().authenticated()
             .and().formLogin()
