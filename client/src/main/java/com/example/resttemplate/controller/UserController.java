@@ -1,5 +1,6 @@
 package com.example.resttemplate.controller;
 
+import com.example.resttemplate.model.User;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
@@ -12,18 +13,32 @@ public class UserController {
 
     @GetMapping("/user")
     public ModelAndView user(ModelMap model) {
-        Authentication auth;
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        String principal;
         ModelAndView mav = new ModelAndView();
         try {
-            auth = SecurityContextHolder.getContext().getAuthentication();
-            Object user = auth.getPrincipal();
-            model.addAttribute(user);
+            model.addAttribute((User) auth.getPrincipal());
+            mav.setViewName("user");
         } catch (ClassCastException e) {
-            e.printStackTrace();
-            model.addAttribute("msg", "This user don't present in DB");
-            mav.setViewName("error");
+            try {
+                User user = new User();
+                principal = ((String) auth.getPrincipal());
+                String firstName = principal.split(" ")[0];
+                String lastName = principal.split(" ")[1];
+                if (user.getFirstName() == null && firstName != null) {
+                    user.setFirstName(firstName);
+                }
+                if (user.getLastName() == null && lastName != null) {
+                    user.setLastName(lastName);
+                }
+                model.addAttribute(user);
+                mav.setViewName("user");
+            } catch (NullPointerException ex) {
+                ex.printStackTrace();
+                model.addAttribute("msg", "This user don't present in DB");
+                mav.setViewName("error");
+            }
         }
-        mav.setViewName("user");
         return mav;
     }
 }
