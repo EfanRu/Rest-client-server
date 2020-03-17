@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13371492-0152-4462-a879-16cbb19cede7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/security/AppSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/security/AppSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/security/CustomUserInfoTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/security/CustomUserInfoTokenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/service/UserServiceRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/service/UserServiceRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/AppSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/AppSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/CustomUserInfoTokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/CustomUserInfoTokenService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/service/UserServiceRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/service/UserServiceRest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="13371492-0152-4462-a879-16cbb19cede7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-login-form-and-oauth2-tutorial-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -108,6 +95,7 @@
       <workItem from="1583992214531" duration="4104000" />
       <workItem from="1584037695414" duration="4420000" />
       <workItem from="1584089014551" duration="6214000" />
+      <workItem from="1584453131723" duration="8000" />
     </task>
     <servers />
   </component>
