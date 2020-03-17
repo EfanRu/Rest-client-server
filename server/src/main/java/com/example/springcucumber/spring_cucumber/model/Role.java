@@ -15,7 +15,6 @@ public class Role implements GrantedAuthority {
     private Integer id;
     @Column(name = "name")
     private String name;
-    @JsonIgnore
     private String authority;
 
     public Role() {}

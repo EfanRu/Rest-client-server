@@ -106,6 +106,7 @@ public class UserDaoImpl implements UserDao {
     public User getUserByLogin(String login) {
         User user = new User();
         user.setLogin("");
+        user.setRole(new Role("user"));
         try {
             Query query = entityManager.createQuery("FROM User u WHERE login = :login");
             query.setParameter("login", login);

@@ -8,7 +8,6 @@ import org.springframework.security.core.GrantedAuthority;
 public class Role implements GrantedAuthority {
     private Integer id;
     private String name;
-    @JsonIgnore
     private String authority;
 
     public Role() {}
