@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="13371492-0152-4462-a879-16cbb19cede7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/MySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/MySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/RunAddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/RunAddUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
