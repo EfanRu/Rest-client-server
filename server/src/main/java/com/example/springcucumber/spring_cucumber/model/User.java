@@ -28,7 +28,7 @@ public class User implements UserDetails {
     private String password;
     @Column(name = "phone_number")
     private Long phoneNumber;
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false, cascade = CascadeType.ALL)
     @JoinColumn(name = "role_id")
     private Role role;
     @Transient
