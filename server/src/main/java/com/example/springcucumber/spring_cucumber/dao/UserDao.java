@@ -1,5 +1,6 @@
 package com.example.springcucumber.spring_cucumber.dao;
 
+import com.example.springcucumber.spring_cucumber.model.Role;
 import com.example.springcucumber.spring_cucumber.model.User;
 
 import java.util.List;
@@ -14,4 +15,5 @@ public interface UserDao {
     boolean checkAuth(String login, String password);
     User getUserByLogin(String login);
     User getUserById(String id);
+    boolean addRole(Role role);
 }
