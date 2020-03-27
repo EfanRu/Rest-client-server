@@ -84,6 +84,7 @@
                      <div class="tab-pane fade in" id="newUser" role="tabpanel">
                         <form action="/admin" method="post" id="addUser">
                             <div class="form-group text-center">
+                                <a hidden="true" style="color:red" id="errorInAddUser">Ошибка в добавление пользователя. Проверьте вводимые данные</a><br>
                                 <b>First name:</b><br>
                                 <input type="text" class="input-lg" name="firstName" id="addFirstName">
                             </div>
