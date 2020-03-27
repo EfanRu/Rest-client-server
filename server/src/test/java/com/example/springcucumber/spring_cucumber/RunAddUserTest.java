@@ -22,7 +22,7 @@ import java.util.Properties;
 //        tags = "@add",
         snippets = SnippetType.CAMELCASE
 )
-@SpringBootTest
+//@SpringBootTest
 public class RunAddUserTest {
     private static ChromeDriverService service;
     protected static WebDriver driver;
