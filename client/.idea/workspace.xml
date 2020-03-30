@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13371492-0152-4462-a879-16cbb19cede7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/codeStyles/Project.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +101,7 @@
       <workItem from="1584037695414" duration="4420000" />
       <workItem from="1584089014551" duration="6214000" />
       <workItem from="1585218762050" duration="2344000" />
+      <workItem from="1585554349520" duration="1029000" />
     </task>
     <servers />
   </component>
@@ -122,10 +122,10 @@
     </state>
     <state x="468" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583748023749" />
     <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1583496975979" />
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585218771326">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="524" y="141" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585554360429">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="524" y="141" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583386792143" />
+    <state x="524" y="141" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585554360429" />
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1585218771326" />
     <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1585224081477">
       <screen x="0" y="27" width="1366" height="741" />
