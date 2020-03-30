@@ -107,5 +107,6 @@ public class MySteps {
         driver.findElement(By.id("addLogin")).sendKeys(arg1);
         driver.findElement(By.id("addPassword")).sendKeys(arg2);
         driver.findElement(By.id("butAddUser")).submit();
+        assert driver.findElement(By.id("errorInAddUser")).isDisplayed();
     }
 }

@@ -31,9 +31,12 @@ $(document).ready(function() {
                 $('#addPhoneNumber').val('');
                 $('#addLogin').val('');
                 $('#addPassword').val('');
+                $('#errorInAddUser').hide();
             },
             error: function (e) {
                 console.log("ERROR : ", e);
+                // $('#errorInAddUser').removeAttr('hidden');
+                $('#errorInAddUser').show();
             }
         });
     }
