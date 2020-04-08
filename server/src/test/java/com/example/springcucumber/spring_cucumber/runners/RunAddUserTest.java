@@ -1,4 +1,4 @@
-package com.example.springcucumber.spring_cucumber;
+package com.example.springcucumber.spring_cucumber.runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
@@ -8,7 +8,6 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,13 +18,12 @@ import java.util.Properties;
 @CucumberOptions(
         features = "src/test/features",
         glue = "com.example.springcucumber.spring_cucumber",
-//        tags = "@add",
+        tags = {"@editUserTest"/*, "@addUserTest"*/},
         snippets = SnippetType.CAMELCASE
 )
-//@SpringBootTest
 public class RunAddUserTest {
     private static ChromeDriverService service;
-    protected static WebDriver driver;
+    private static WebDriver driver;
     private static Properties props = new Properties();
 
     @BeforeClass
@@ -37,5 +35,9 @@ public class RunAddUserTest {
                 .build();
         service.start();
         driver = new ChromeDriver(service);
+    }
+
+    public static WebDriver getDriver() {
+        return driver;
     }
 }

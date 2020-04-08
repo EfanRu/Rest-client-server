@@ -36,7 +36,7 @@ function refresh_user_table() {
                     '                                                                <div class="modal-footer">\n' +
                     '                                                                    <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>\n' +
                     '                                                                    <button type="button" class="btn btn-outline editFromClassBut">Change</button>\n' +
-                    '                                                                </div>;\n' +
+                    '                                                                </div>\n' +
                     '                                                            </div>\n' +
                     '                                                        </div>\n' +
                     '                                                    </div>\n' +
