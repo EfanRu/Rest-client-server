@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13371492-0152-4462-a879-16cbb19cede7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../server/src/test/features/testEditUser.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/steps/StepsForEditUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/addUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/addUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/refreshTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/refreshTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/addUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/addUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/test/features/testAddUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/features/testAddUser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/MySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/steps/MyStepsForAddUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/RunAddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/runners/RunAddUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/MySteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/RunAddUserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/test/features/testEditUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/features/testEditUser.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/steps/StepsForEditUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/steps/StepsForEditUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +101,7 @@
       <workItem from="1584037695414" duration="4420000" />
       <workItem from="1584089014551" duration="6214000" />
       <workItem from="1585900744755" duration="4097000" />
+      <workItem from="1586508184935" duration="713000" />
     </task>
     <servers />
   </component>
@@ -128,10 +122,10 @@
     </state>
     <state x="468" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583748023749" />
     <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1583496975979" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585901009353">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586508229192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585901009353" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586508229192" />
     <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1586359338269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -192,10 +186,10 @@
     </state>
     <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584338858040" />
     <state width="1320" height="219" key="GridCell.Tab.2.right/0.27.1366.741@0.27.1366.741" timestamp="1584110786853" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585900955490">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586508194647">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585900955490" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586508194647" />
     <state x="414" y="239" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1585290094293" />
     <state x="379" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1584095237240">
       <screen x="0" y="27" width="1366" height="741" />

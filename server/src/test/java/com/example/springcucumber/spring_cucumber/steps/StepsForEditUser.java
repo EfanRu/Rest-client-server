@@ -1,18 +1,13 @@
 package com.example.springcucumber.spring_cucumber.steps;
 
 import com.example.springcucumber.spring_cucumber.SpringCucumberApplication;
+import com.example.springcucumber.spring_cucumber.model.User;
 import com.example.springcucumber.spring_cucumber.runners.RunAddUserTest;
 import com.example.springcucumber.spring_cucumber.service.UserService;
 import cucumber.api.PendingException;
-import cucumber.api.java.ru.Допустим;
-import cucumber.api.java.ru.Если;
-import cucumber.api.java.ru.То;
-import cucumber.api.java.ru.Тогда;
+import cucumber.api.java.ru.*;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -96,29 +91,52 @@ public class StepsForEditUser {
         }
     }
 
+    @И("^отсутствует запись с логином \"([^\"]*)\"$")
+    public void отсутствуетЗаписьСЛогином(String arg0) throws Throwable {
+        User user = userService.getUserByLogin(arg0);
+        if (user.getLogin().equals(arg0)) {
+            userService.deleteUser(user.getId().toString());
+        }
+    }
+
     @То("^вносим следующие изменения в запись с логином \"([^\"]*)\": имя \"([^\"]*)\", фамилия \"([^\"]*)\", логином \"([^\"]*)\", паролем \"([^\"]*)\", телефоном \"([^\"]*)\", ролью \"([^\"]*)\"$")
     public void вносим_следующие_изменения_в_запись_с_логином_имя_фамилия_логином_паролем_телефоном_ролью(String arg1, String arg2, String arg3, String arg4, String arg5, String arg6, String arg7) throws Throwable {
         WebElement table = driver.findElement(By.xpath("//a[contains(text(),'s table')]"));
         WebElement editButton = driver.findElement(By.xpath("(//td[contains(text(),'" + arg1 + "')]/following-sibling::td//button[contains(text(), 'edit')])[1]"));
-        WebElement firstNameInput = driver.findElement(By.xpath("(//div//b[text()='First name:']/following-sibling::input)[1]"));
-        WebElement lastNameInput = driver.findElement(By.xpath("(//div//b[text()='Last name:']/following-sibling::input)[1]"));
-        WebElement phoneNumberInput = driver.findElement(By.xpath("(//div//b[text()='Phone number']/following-sibling::input)[1]"));
-        WebElement roleInput;
-        WebElement loginInput = driver.findElement(By.xpath("(//div//b[text()='Login']/following-sibling::input)[1]"));
-        WebElement passwordInput = driver.findElement(By.xpath("(//div//b[text()='Password']/following-sibling::input)[1]"));
-        WebElement sumbitChangeButton = driver.findElement(By.xpath("(//button[text()='Change'])[1]"));
         WebElement changedLogin = driver.findElement(By.xpath("//td[contains(text(),'" + arg4 + "')]"));
         WebDriverWait wait = new WebDriverWait(driver, 2);
+        FluentWait<WebDriver> fluentWait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(5))
+                .pollingEvery(Duration.ofMillis(200))
+                .ignoring(ElementNotInteractableException.class);
 
         table.click();
-//        wait.until(ExpectedConditions.elementToBeClickable(editButton));
         wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("(//td[contains(text(),'" + arg1 + "')]/following-sibling::td//button[contains(text(), 'edit')])[1]"))));
         editButton.click();
-        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("(//div//b[text()='First name:']/following-sibling::input)[1]"))));
-        firstNameInput.sendKeys(arg2);
+
+        WebElement firstNameInput = driver.findElement(By.xpath("(//div//b[text()='First name:']/following-sibling::input)[1]"));
+        WebElement lastNameInput = driver.findElement(By.xpath("(//div//b[text()='Last name:']/following-sibling::input)[1]"));
+        WebElement phoneNumberInput = driver.findElement(By.xpath("(//div//b[text()='Phone number:']/following-sibling::input)[1]"));
+        WebElement roleInput;
+        WebElement loginInput = driver.findElement(By.xpath("(//div//b[text()='Login:']/following-sibling::input)[1]"));
+        WebElement passwordInput = driver.findElement(By.xpath("(//div//b[text()='Password:']/following-sibling::input)[1]"));
+        WebElement sumbitChangeButton = driver.findElement(By.xpath("(//button[text()='Change'])[1]"));
+
+
+//        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("(//div//b[text()='First name:']/following-sibling::input)[1]"))));
+        fluentWait.until(driver -> {
+            firstNameInput.clear();
+            firstNameInput.sendKeys(arg2);
+            return true;
+        });
+//        firstNameInput.clear();
+//        firstNameInput.sendKeys(arg2);
+        lastNameInput.clear();
         lastNameInput.sendKeys(arg3);
+        loginInput.clear();
         loginInput.sendKeys(arg4);
         passwordInput.sendKeys(arg5);
+        phoneNumberInput.clear();
         phoneNumberInput.sendKeys(arg6);
         if (arg7.equalsIgnoreCase("admin")) {
             roleInput = driver.findElement(By.xpath("//select//option[@value='admin']"));
@@ -127,6 +145,7 @@ public class StepsForEditUser {
         }
         roleInput.click();
         sumbitChangeButton.click();
+
         assert changedLogin.isDisplayed();
     }
 
