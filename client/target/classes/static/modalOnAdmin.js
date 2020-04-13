@@ -16,6 +16,7 @@ $(document).ready(function() {
                 data += '\n' +
                     '                                            <form class="editFromClass" action="/admin" method="put" id="' + user.id + '">\n' +
                     '                                                <div class="form-group text-center">\n' +
+                    '                                                    <a hidden="true" style="color:red" id="errorInEditUser">Ошибка в редактировании пользователя. Логин должен быть уникальным. Проверьте вводимые данные.</a><br>\n' +
                     '                                                    <b>Id:</b><br>\n' +
                     '                                                    <input class="input-lg" type="text" name="id" value="' + user.id + '" id="editUser"><br>\n' +
                     '                                                    <b>First name:</b><br>\n' +

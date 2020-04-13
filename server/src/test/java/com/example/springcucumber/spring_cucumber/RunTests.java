@@ -1,4 +1,4 @@
-package com.example.springcucumber.spring_cucumber.runners;
+package com.example.springcucumber.spring_cucumber;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
@@ -21,7 +21,7 @@ import java.util.Properties;
         tags = {"@editUserTest"/*, "@addUserTest"*/},
         snippets = SnippetType.CAMELCASE
 )
-public class RunAddUserTest {
+public class RunTests {
     private static ChromeDriverService service;
     private static WebDriver driver;
     private static Properties props = new Properties();

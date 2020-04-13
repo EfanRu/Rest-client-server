@@ -17,6 +17,10 @@ $(document).ready(function() {
         editUser["role"] = $('#editRole').val();
         editUser["login"] = $('#editLogin').val();
         editUser["password"] = $('#editPassword').val();
+        if (editUser["login"] === "") {
+            $('#errorInEditUser').show();
+            throw new DOMException("User login is null");
+        }
 
         $.ajax({
             type: "PUT",
@@ -29,10 +33,12 @@ $(document).ready(function() {
             success: function (data) {
                 console.log("SUCCESS : ", data);
                 refresh_user_table();
+                $('#errorInEditUser').hide();
                 $('#modal-warning').close();
             },
             error: function (e) {
                 console.log("ERROR : ", e);
+                $('#errorInEditUser').show();
             }
         });
 

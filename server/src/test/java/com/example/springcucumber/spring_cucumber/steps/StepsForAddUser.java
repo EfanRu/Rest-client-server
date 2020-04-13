@@ -3,7 +3,7 @@ package com.example.springcucumber.spring_cucumber.steps;
 import com.example.springcucumber.spring_cucumber.SpringCucumberApplication;
 import com.example.springcucumber.spring_cucumber.model.Role;
 import com.example.springcucumber.spring_cucumber.model.User;
-import com.example.springcucumber.spring_cucumber.runners.RunAddUserTest;
+import com.example.springcucumber.spring_cucumber.RunTests;
 import com.example.springcucumber.spring_cucumber.service.UserService;
 import cucumber.api.java.ru.Допустим;
 import cucumber.api.java.ru.Если;
@@ -18,7 +18,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
-import org.springframework.data.web.PageableDefault;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -28,16 +27,16 @@ import java.util.concurrent.TimeUnit;
 @ContextConfiguration(classes = SpringCucumberApplication.class)
 @PropertySource("classpath:application.properties")
 @RunWith(SpringJUnit4ClassRunner.class)
-public class MyStepsForAddUser {
+public class StepsForAddUser {
     private UserService userService;
     private Environment env;
     private WebDriver driver;
 
     @Autowired
-    public MyStepsForAddUser(UserService userService, Environment environment) {
+    public StepsForAddUser(UserService userService, Environment environment) {
         this.userService = userService;
         this.env = environment;
-        this.driver = RunAddUserTest.getDriver();
+        this.driver = RunTests.getDriver();
     }
 
     @Допустим("^мы авторизовались под админом$")
