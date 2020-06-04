@@ -2,6 +2,7 @@ package com.example.springcucumber.spring_cucumber.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.hibernate.annotations.GenericGenerator;
 import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;
@@ -12,7 +13,16 @@ import java.util.Collection;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Role implements GrantedAuthority {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GenericGenerator(
+            name = "sequence",
+            strategy = "org.hibernate.id.enhanced.SequenceStyleGenerator",
+            parameters = {
+                    @org.hibernate.annotations.Parameter(name = "sequence_name", value = "SEQUENCE"),
+                    @org.hibernate.annotations.Parameter(name = "initial_value", value = "1000"),
+                    @org.hibernate.annotations.Parameter(name = "increment_size", value = "1")
+            }
+    )
+    @GeneratedValue(generator = "sequence")
     private Integer id;
     @Column(name = "name", unique = true)
     private String name;

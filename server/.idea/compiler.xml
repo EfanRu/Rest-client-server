@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring_cucumber" target="13" />
+      <module name="spring_cucumber" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

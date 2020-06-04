@@ -1,5 +1,6 @@
 package com.example.springcucumber.spring_cucumber;
 
+import com.codeborne.selenide.logevents.SelenideLogger;
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
@@ -8,6 +9,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
+import io.qameta.allure.selenide.AllureSelenide;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -35,6 +37,7 @@ public class RunTests {
                 .build();
         service.start();
         driver = new ChromeDriver(service);
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(false));
     }
 
     public static WebDriver getDriver() {
