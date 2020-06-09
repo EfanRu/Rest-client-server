@@ -2,8 +2,6 @@ package com.example.resttemplate.controller;
 
 import com.example.resttemplate.model.User;
 import com.example.resttemplate.service.UserServiceRest;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.ModelMap;
@@ -15,8 +13,6 @@ import java.util.List;
 
 @RestController
 public class AdminRestController {
-    private static final Logger LOG = LoggerFactory.getLogger(AdminRestController.class);
-
     private UserServiceRest userService;
 
     @Autowired

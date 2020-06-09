@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Welcome User</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<div class="input-group" style="background: black">
+    <h3 style="color: darkgray; padding-left: 20px">My project</h3>
+    <span class="input-group-btn">
+            <form action="/logout" method="get" >
+                <button class="btn" style="background: black; color: darkgray">Log out</button>
+            </form>
+        </span>
+</div>
+
+
+<div class="container-fluid" >
+    <div class="row-fluid flex">
+        <div class="col-sm-2 col-md-2 sidebar">
+            <ul class="nav nav-siderbar">
+                <br>
+                <a class="btn-link" onclick="location.href = '/admin';">Admin page</a>
+                <br>
+                <a class="btn-link" onclick="location.href = '/user';">User page</a>
+            </ul>
+        </div>
+        <div class="col-sm-10 col-md-10 main" style="background: #d9d9d9; min-height: 700px">
+            <form action="/user" method="get">
+                <h4 th:text="'Welcome ' + ${user.firstName} + ' ' + ${user.lastName} + ', man!'">Welcome to user page, piece of meat!</h4>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

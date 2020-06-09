@@ -295,5 +295,8 @@
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.13.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
   </component>
 </module>

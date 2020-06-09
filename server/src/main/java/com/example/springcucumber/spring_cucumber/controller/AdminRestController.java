@@ -3,8 +3,6 @@ package com.example.springcucumber.spring_cucumber.controller;
 import com.example.springcucumber.spring_cucumber.model.User;
 import com.example.springcucumber.spring_cucumber.service.UserService;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.ModelMap;
@@ -16,8 +14,6 @@ import java.util.List;
 
 @RestController
 public class AdminRestController {
-    private static final Logger LOG = LoggerFactory.getLogger(AdminRestController.class);
-
     private UserService userService;
 
     @Autowired

@@ -1,5 +1,7 @@
 package com.example.springcucumber.spring_cucumber.steps;
 
+import com.example.springcucumber.spring_cucumber.Page.LoginPage;
+import com.example.springcucumber.spring_cucumber.Page.LogoutPage;
 import com.example.springcucumber.spring_cucumber.SpringCucumberApplication;
 import com.example.springcucumber.spring_cucumber.model.Role;
 import com.example.springcucumber.spring_cucumber.model.User;
@@ -31,16 +33,27 @@ public class StepsForAddUser {
     private UserService userService;
     private Environment env;
     private WebDriver driver;
+//    private LoginPage loginPage;
+//    private LogoutPage logoutPage;
 
     @Autowired
     public StepsForAddUser(UserService userService, Environment environment) {
         this.userService = userService;
         this.env = environment;
         this.driver = RunTests.getDriver();
+//        this.loginPage = new LoginPage(environment);
+//        this.logoutPage = new LogoutPage(environment);
     }
 
     @Допустим("^мы авторизовались под админом$")
     public void мы_авторизовались_под_админом() throws Throwable {
+//        logoutPage.getPageUrl();
+//        loginPage.getPageUrl();
+//        loginPage.getLogin().sendKeys(env.getRequiredProperty("db.default.admin.login"));
+//        loginPage.getPass().sendKeys(env.getRequiredProperty("db.default.admin.password"));
+//        loginPage.getConfirmButton().click();
+
+//        Testing page object pattern
         driver.get(env.getRequiredProperty("test.url.logout"));
         driver.get(env.getRequiredProperty("test.url.login"));
         driver.findElement(By.name("username")).sendKeys(env.getRequiredProperty("db.default.admin.login"));

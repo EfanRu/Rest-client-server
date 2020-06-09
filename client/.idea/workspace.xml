@@ -26,240 +26,143 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13371492-0152-4462-a879-16cbb19cede7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/bin/allure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/bin/allure.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/config/allure-cucumber.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/config/allure-junit.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/config/allure.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/allure-commandline-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/allure-generator-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/allure-plugin-api-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/allure1-model-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/allure2-model-api-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/allure2-model-jackson-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/allure2-model-pojo-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/commons-codec-1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/commons-collections-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/commons-collections4-4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/commons-io-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/commons-lang3-3.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/commons-text-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/config/jetty-logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/config/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/flexmark-0.34.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/flexmark-util-0.34.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/freemarker-2.3.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/httpclient-4.5.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/httpcore-4.4.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jackson-core-2.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jackson-databind-2.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jackson-dataformat-xml-2.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jackson-dataformat-yaml-2.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jackson-module-jaxb-annotations-2.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jaxb-api-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jaxb-utils-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jcommander-1.72.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jetty-http-9.4.11.v20180605.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jetty-io-9.4.11.v20180605.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jetty-server-9.4.11.v20180605.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/jetty-util-9.4.11.v20180605.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/opencsv-4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/properties-2.0.RC5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/snakeyaml-1.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/stax2-api-3.1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/tika-core-1.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/lib/woodstox-core-5.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/behaviors-plugin/plugin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/behaviors-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/junit-xml-plugin/junit-xml-plugin-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/packages-plugin/plugin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/packages-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/trx-plugin/trx-plugin-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/xctest-plugin/xctest-plugin-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.allure/allure-2.7.0/plugins/xunit-xml-plugin/xunit-xml-plugin-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__backport_util_concurrent_backport_util_concurrent_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__com_codeborne_selenide_5_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__commons_validator_commons_validator_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__dom4j_dom4j_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__io_qameta_allure_allure_junit4_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__io_qameta_allure_allure_maven_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__io_qameta_allure_allure_model_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__io_qameta_allure_allure_selenide_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_doxia_doxia_core_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_doxia_doxia_decoration_model_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_doxia_doxia_logging_api_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_fml_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xhtml_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_doxia_doxia_sink_api_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_doxia_doxia_site_renderer_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_builder_support_3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_core_3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_jxr_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_model_3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_profile_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_project_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_settings_3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_plugin_tools_maven_plugin_annotations_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_plugins_maven_jxr_plugin_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_api_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_impl_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_struts_struts_core_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_struts_struts_taglib_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_struts_struts_tiles_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_tika_tika_core_1_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_velocity_velocity_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_velocity_velocity_tools_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_codehaus_plexus_plexus_i18n_1_0_beta_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_codehaus_plexus_plexus_velocity_1_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_aether_aether_api_1_0_2_v20150114.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_aether_aether_impl_1_0_2_v20150114.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_aether_aether_spi_1_0_2_v20150114.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_aether_aether_util_1_0_2_v20150114.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_inject_0_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_plexus_0_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_jsoup_jsoup_1_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_rauschig_jarchivelib_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__sslext_sslext_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__xalan_xalan_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__xmlunit_xmlunit_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/lib/ojdbc10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/lib/ojdbc8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/resources/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/015bd4e7-cdda-4d5e-9e86-35c44bc556ed-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/4d089f4c-f752-4e5f-ba52-e3fa703a608c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/5db215b5-412b-4a70-8acb-2553bbbcc23d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/5f96dd54-15b1-48e7-9a45-de8be92dda6f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/5fcebab5-3b40-4b9b-bb8f-8c544de89c0e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/60d4b64c-16e7-4dcc-b672-bf6751014483-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/661f0375-bae9-4737-8d13-93a9cc73e186-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/702321e8-084a-477f-bdf7-3e4d13a8f410-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/751dd851-6ff7-4121-9874-fea2f1311385-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/7cfe04a8-a988-4600-b921-ec96f055e7a9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/7e7047a9-8b5f-48c5-970b-3c36b0731ecc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/a64eac49-be8b-4e2d-b61a-13614bd6ad94-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/aac2bab3-7099-4cf8-b939-d0fc748aeac8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/baaf81d0-7d09-44c5-940b-9fff783d0376-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/d274d0c2-ec70-4d13-817d-293bb464d938-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/e4378899-21ce-4982-b746-5e595e06254f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/allure-results/executor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/classes/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/surefire-reports/2020-06-04T14-12-10_702.dumpstream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/surefire-reports/TEST-com.example.springcucumber.spring_cucumber.RunTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/target/surefire-reports/com.example.springcucumber.spring_cucumber.RunTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT.war.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/RestTemplateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/ResttemplateApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/AdminRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/LoginAndErrorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/model/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/AppSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/AuthProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/CustomUserInfoTokenService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/MySimpleUrlAuthenticationSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/service/UserServiceRest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/service/UserServiceRest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/addUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/deleteUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/editUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/modalOnAdmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/refreshTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/adminAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/bcpkix-jdk15on-1.64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/commons-codec-1.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.18.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/httpclient-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/httpcore-4.4.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-dataformat-xml-2.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-core-2.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-impl-2.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.12.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.12.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-security-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-thymeleaf-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-validation-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-config-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-core-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-jwt-1.1.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-oauth2-2.4.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-oauth2-autoconfigure-2.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-web-5.2.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/stax2-api-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-extras-java8time-3.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-9.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-9.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/woodstox-core-6.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.resttemplate.ResttemplateApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.resttemplate.ResttemplateApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/Page/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/Page/LogoutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resttemplate.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/RestTemplateConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/RestTemplateConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/ResttemplateApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/ResttemplateApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/controller/AdminRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/controller/AdminRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/controller/AdminRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/controller/AdminRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/controller/LoginAndErrorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/controller/LoginAndErrorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/model/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/AppSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/AppSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/AuthProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/AuthProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/CustomUserInfoTokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/CustomUserInfoTokenService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/MySimpleUrlAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/security/MySimpleUrlAuthenticationSuccessHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/service/UserServiceRest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/service/UserServiceRest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/service/UserServiceRest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/service/UserServiceRest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/resttemplate/ResttemplateApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/resttemplate/ResttemplateApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_postgresql_postgresql_42_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/spring_cucumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/spring_cucumber.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/RunTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/RunTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/META-INF/spring_cucumber.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/SpringCucumberApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/SpringCucumberApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/controller/AdminRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/controller/AdminRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/steps/StepsForAddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/steps/StepsForAddUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/015bd4e7-cdda-4d5e-9e86-35c44bc556ed-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/4d089f4c-f752-4e5f-ba52-e3fa703a608c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/5db215b5-412b-4a70-8acb-2553bbbcc23d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/5f96dd54-15b1-48e7-9a45-de8be92dda6f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/5fcebab5-3b40-4b9b-bb8f-8c544de89c0e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/60d4b64c-16e7-4dcc-b672-bf6751014483-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/661f0375-bae9-4737-8d13-93a9cc73e186-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/702321e8-084a-477f-bdf7-3e4d13a8f410-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/751dd851-6ff7-4121-9874-fea2f1311385-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/7cfe04a8-a988-4600-b921-ec96f055e7a9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/7e7047a9-8b5f-48c5-970b-3c36b0731ecc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/a64eac49-be8b-4e2d-b61a-13614bd6ad94-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/aac2bab3-7099-4cf8-b939-d0fc748aeac8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/baaf81d0-7d09-44c5-940b-9fff783d0376-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/d274d0c2-ec70-4d13-817d-293bb464d938-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/e4378899-21ce-4982-b746-5e595e06254f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/executor.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/controller/AdminRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/controller/AdminRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/dao/UserDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/model/Role.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/security/AppSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/security/AppSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/security/DefaultUserAndAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/security/DefaultUserAndAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/test-classes/META-INF/spring_cucumber.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/RunTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/RunTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/SpringCucumberApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/SpringCucumberApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/rest_assured/testRestAssured.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/rest_assured/testRestAssured.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/surefire-reports/2020-06-04T14-12-10_702.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/surefire-reports/TEST-com.example.springcucumber.spring_cucumber.RunTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/surefire-reports/com.example.springcucumber.spring_cucumber.RunTests.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/steps/StepsForAddUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/steps/StepsForAddUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/steps/StepsForEditUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/steps/StepsForEditUser.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,6 +196,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -371,6 +275,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -386,33 +291,38 @@
     </state>
     <state x="468" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583748023749" />
     <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1583496975979" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586508229192">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1591623747944">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586508229192" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591254852776">
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591623747944" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591688829922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586777876400" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591254852776" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591688829922" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591341832695" />
     <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585233888464" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591254852776">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591688829922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586777876399" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591254852776" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591688829922" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591341832695" />
     <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585233888464" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591254852776">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591688829922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586777876399" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591254852776" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591688829922" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591341832695" />
     <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585233888463" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591254852776">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591688829922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586777876400" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591254852776" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591688829922" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591341832695" />
     <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585233888464" />
     <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1586777876400">
       <screen x="0" y="0" width="1536" height="824" />
@@ -459,6 +369,10 @@
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586508194647" />
     <state x="414" y="239" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1585290094293" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591631355887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591631355887" />
     <state x="379" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1584095237240">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
