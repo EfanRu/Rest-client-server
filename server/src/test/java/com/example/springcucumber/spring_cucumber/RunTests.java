@@ -1,19 +1,24 @@
 package com.example.springcucumber.spring_cucumber;
 
+import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
+import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
-import io.qameta.allure.selenide.AllureSelenide;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Properties;
 
 @RunWith(Cucumber.class)
@@ -31,13 +36,41 @@ public class RunTests {
     @BeforeClass
     public static void createAndStartService() throws IOException {
         props.load(new FileInputStream(new File("src/main/resources/application.properties")));
+        driver = Boolean
+                .parseBoolean(props
+                        .getProperty("test.driver.local")) ? getLocalDriver() : getSelenoidDriver();
+        WebDriverRunner.setWebDriver(driver);
+        SelenideLogger
+                .addListener("AllureSelenide", new AllureSelenide()
+                        .screenshots(true)
+                        .savePageSource(false));
+    }
+
+    @After
+    public void tearDown() {
+        WebDriverRunner.closeWebDriver();
+    }
+
+    private static WebDriver getLocalDriver() throws IOException {
         service = new ChromeDriverService.Builder()
                 .usingDriverExecutable(new File(props.getProperty("test.path.web.driver")))
                 .usingAnyFreePort()
                 .build();
         service.start();
-        driver = new ChromeDriver(service);
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(false));
+        return new ChromeDriver(service);
+    }
+
+    private static WebDriver getSelenoidDriver() throws IOException {
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setBrowserName(props.getProperty("test.selenoid.browser"));
+        capabilities.setVersion(props.getProperty("test.selenoid.browser.version"));
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
+
+        return new RemoteWebDriver(
+                new URL(props.getProperty("test.selenoid.url.web.driver")),
+                capabilities
+        );
     }
 
     public static WebDriver getDriver() {

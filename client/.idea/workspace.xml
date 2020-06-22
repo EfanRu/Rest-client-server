@@ -26,143 +26,126 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13371492-0152-4462-a879-16cbb19cede7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT.war.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/RestTemplateConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/ResttemplateApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/AdminRestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/LoginAndErrorController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/model/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/AppSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/AuthProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/CustomUserInfoTokenService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/MySimpleUrlAuthenticationSuccessHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/service/UserServiceRest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/service/UserServiceRest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/addUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/deleteUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/editUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/modalOnAdmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/refreshTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/adminAll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/bcpkix-jdk15on-1.64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/commons-codec-1.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.18.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/httpclient-4.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/httpcore-4.4.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.10.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.10.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.10.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-dataformat-xml-2.10.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.10.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.10.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.10.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.10.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-2.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-core-2.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-impl-2.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.12.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.12.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-security-2.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-thymeleaf-2.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-validation-2.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-config-5.2.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-core-5.2.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-jwt-1.1.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-oauth2-2.4.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-oauth2-autoconfigure-2.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-web-5.2.1.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/stax2-api-4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-extras-java8time-3.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-9.0.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-9.0.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/woodstox-core-6.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.resttemplate.ResttemplateApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.resttemplate.ResttemplateApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/Page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/Page/LogoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/Docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/config_browser_selenoid/browsers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/lib/ojdbc6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/oracle-environment" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/controller/AdminRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/resttemplate/controller/AdminRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/resttemplate/controller/AdminRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/resttemplate/controller/AdminRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT.war.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/RestTemplateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/ResttemplateApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/AdminRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/LoginAndErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/AppSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/AuthProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/CustomUserInfoTokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/security/MySimpleUrlAuthenticationSuccessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/service/UserServiceRest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/resttemplate/service/UserServiceRest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/addUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/deleteUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/editUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/modalOnAdmin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/refreshTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/adminAll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/classes/templates/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/bcpkix-jdk15on-1.64.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.64.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/commons-codec-1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.18.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/httpcore-4.4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-dataformat-xml-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-2.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-core-2.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-impl-2.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.12.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.12.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-2.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-security-2.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-thymeleaf-2.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-validation-2.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-config-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-core-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-jwt-1.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-oauth2-2.4.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-oauth2-autoconfigure-2.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-security-web-5.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/stax2-api-4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-extras-java8time-3.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-9.0.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-9.0.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resttemplate-0.0.1-SNAPSHOT/WEB-INF/lib/woodstox-core-6.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.resttemplate.ResttemplateApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.resttemplate.ResttemplateApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.resttemplate.ResttemplateApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.resttemplate.ResttemplateApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/spring_cucumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/spring_cucumber.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/controller/AdminRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/example/springcucumber/spring_cucumber/controller/AdminRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/steps/StepsForAddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/steps/StepsForAddUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/015bd4e7-cdda-4d5e-9e86-35c44bc556ed-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/4d089f4c-f752-4e5f-ba52-e3fa703a608c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/5db215b5-412b-4a70-8acb-2553bbbcc23d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/5f96dd54-15b1-48e7-9a45-de8be92dda6f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/5fcebab5-3b40-4b9b-bb8f-8c544de89c0e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/60d4b64c-16e7-4dcc-b672-bf6751014483-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/661f0375-bae9-4737-8d13-93a9cc73e186-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/702321e8-084a-477f-bdf7-3e4d13a8f410-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/751dd851-6ff7-4121-9874-fea2f1311385-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/7cfe04a8-a988-4600-b921-ec96f055e7a9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/7e7047a9-8b5f-48c5-970b-3c36b0731ecc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/a64eac49-be8b-4e2d-b61a-13614bd6ad94-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/aac2bab3-7099-4cf8-b939-d0fc748aeac8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/allure.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/baaf81d0-7d09-44c5-940b-9fff783d0376-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/d274d0c2-ec70-4d13-817d-293bb464d938-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/e4378899-21ce-4982-b746-5e595e06254f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/allure-results/executor.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/controller/AdminRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/controller/AdminRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/model/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/com/example/springcucumber/spring_cucumber/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/surefire-reports/2020-06-04T14-12-10_702.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/surefire-reports/TEST-com.example.springcucumber.spring_cucumber.RunTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/surefire-reports/com.example.springcucumber.spring_cucumber.RunTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/steps/StepsForAddUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/steps/StepsForAddUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/Page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/Page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/RunTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/RunTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/test/java/com/example/springcucumber/spring_cucumber/SpringCucumberApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/RunTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/RunTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/target/test-classes/com/example/springcucumber/spring_cucumber/SpringCucumberApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +182,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -281,48 +264,39 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="510" y="137" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1583503833918">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583437497301" />
-    <state x="510" y="137" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1583503833918" />
-    <state x="468" y="131" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583748023749">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="468" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583748023749" />
-    <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1583496975979" />
-    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1591623747944">
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1592460462626">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586508229192" />
-    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591623747944" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591688829922">
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592376935118" />
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592460462626" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592836336286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586777876400" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591688829922" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591341832695" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592376753970" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592836336286" />
     <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585233888464" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591688829922">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592836336286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586777876399" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591688829922" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591341832695" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592376753970" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592836336286" />
     <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585233888464" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591688829922">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592836336285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586777876399" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591688829922" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591341832695" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592376753970" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592836336285" />
     <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585233888463" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591688829922">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592836336286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586777876400" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591688829922" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591341832695" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592376753970" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592836336286" />
     <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585233888464" />
     <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1586777876400">
       <screen x="0" y="0" width="1536" height="824" />
@@ -392,5 +366,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
+    <setting name="isActivated" value="true" />
   </component>
 </project>

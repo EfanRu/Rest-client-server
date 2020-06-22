@@ -4,6 +4,7 @@ import com.example.springcucumber.spring_cucumber.RunTests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.springframework.core.env.Environment;
 //import ru.sbtqa.tag.pagefactory.Page;
 //import ru.sbtqa.tag.pagefactory.annotations.ElementTitle;

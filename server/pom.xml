@@ -46,14 +46,22 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc</artifactId>
-            <version>10</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/ojdbc8.jar</systemPath>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.oracle</groupId>-->
+<!--            <artifactId>ojdbc</artifactId>-->
+<!--            <version>10</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${basedir}/lib/ojdbc8.jar</systemPath>-->
+<!--        </dependency>-->
 
+
+                <dependency>
+                    <groupId>com.oracle</groupId>
+                    <artifactId>ojdbc6</artifactId>
+                    <version>11.2.0.4</version>
+<!--                    <scope>system</scope>-->
+<!--                    <systemPath>${basedir}/lib/ojdbc6.jar</systemPath>-->
+                </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -180,11 +188,11 @@
             <version>5.12.2</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.30</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>slf4j-log4j12</artifactId>-->
+<!--            <version>1.7.30</version>-->
+<!--        </dependency>-->
 
         <!--        Dependency for test-->
 

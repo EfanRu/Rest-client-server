@@ -4,5 +4,6 @@
 /build
 /allure-results
 /out
+/client
 *.iml
 *.log
