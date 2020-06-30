@@ -1,19 +1,17 @@
 package com.example.springcucumber.spring_cucumber.steps;
 
-import com.example.springcucumber.spring_cucumber.Page.LoginPage;
-import com.example.springcucumber.spring_cucumber.Page.LogoutPage;
 import com.example.springcucumber.spring_cucumber.SpringCucumberApplication;
 import com.example.springcucumber.spring_cucumber.model.Role;
 import com.example.springcucumber.spring_cucumber.model.User;
-import com.example.springcucumber.spring_cucumber.RunTests;
+import com.example.springcucumber.spring_cucumber.page.LoginPage;
+import com.example.springcucumber.spring_cucumber.page.LogoutPage;
+import com.example.springcucumber.spring_cucumber.page.MainPage;
 import com.example.springcucumber.spring_cucumber.service.UserService;
 import cucumber.api.java.ru.Допустим;
 import cucumber.api.java.ru.Если;
 import cucumber.api.java.ru.Тогда;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -22,51 +20,48 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import ru.sbtqa.tag.pagefactory.PageFactory;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 @ContextConfiguration(classes = SpringCucumberApplication.class)
 @PropertySource("classpath:application.properties")
 @RunWith(SpringJUnit4ClassRunner.class)
 public class StepsForAddUser {
-    private UserService userService;
-    private Environment env;
-    private WebDriver driver;
-//    private LoginPage loginPage;
-//    private LogoutPage logoutPage;
+    private final UserService userService;
+    private final Environment env;
+    private final WebDriver driver = PageFactory.getWebDriver();
+    private final LoginPage loginPage = new LoginPage();
+    private final LogoutPage logoutPage = new LogoutPage();
+    private final MainPage mainPage = new MainPage();
+    private final WebDriverWait wait = new WebDriverWait(driver, 5);
+    private final FluentWait<WebDriver> fluentWait = new FluentWait<>(driver)
+            .withTimeout(Duration.ofSeconds(1))
+            .pollingEvery(Duration.ofMillis(200));
+
 
     @Autowired
     public StepsForAddUser(UserService userService, Environment environment) {
         this.userService = userService;
         this.env = environment;
-        this.driver = RunTests.getDriver();
-//        this.loginPage = new LoginPage(environment);
-//        this.logoutPage = new LogoutPage(environment);
     }
 
     @Допустим("^мы авторизовались под админом$")
     public void мы_авторизовались_под_админом() throws Throwable {
-//        logoutPage.getPageUrl();
-//        loginPage.getPageUrl();
-//        loginPage.getLogin().sendKeys(env.getRequiredProperty("db.default.admin.login"));
-//        loginPage.getPass().sendKeys(env.getRequiredProperty("db.default.admin.password"));
-//        loginPage.getConfirmButton().click();
-
-//        Testing page object pattern
-        driver.get(env.getRequiredProperty("test.url.logout"));
-        driver.get(env.getRequiredProperty("test.url.login"));
-        driver.findElement(By.name("username")).sendKeys(env.getRequiredProperty("db.default.admin.login"));
-        driver.findElement(By.name("password")).sendKeys(env.getRequiredProperty("db.default.admin.password"));
-        driver.findElement(By.className("btn")).click();
+        driver.get(logoutPage.getUrl());
+        driver.get(loginPage.getUrl());
+        loginPage.authorization(
+                env.getRequiredProperty("db.default.admin.login"),
+                env.getRequiredProperty("db.default.admin.password")
+        );
     }
 
     @Допустим("^зашли в меню добавления пользователя$")
     public void зашли_в_меню_добавления_пользователя() throws Throwable {
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        WebElement addForm = driver.findElement(By.id("navAddForm"));
-        wait.until(ExpectedConditions.elementToBeClickable(addForm));
-        addForm.click();
+        wait.until(ExpectedConditions
+                .elementToBeClickable(mainPage
+                        .getAddUserForm()))
+                .click();
     }
 
     @Если("^на сервере не существует такого же логина \"([^\"]*)\"$")
@@ -78,50 +73,46 @@ public class StepsForAddUser {
     }
 
     @Тогда("^пользователь с логином \"([^\"]*)\" и паролем \"([^\"]*)\" добавляется корретно$")
-    public void пользователь_с_логином_и_паролем_добавляется_корретно(String arg1, String arg2) throws Throwable {
-        WebElement navLinkTable = driver.findElement(By.id("navLinkTable"));
-        FluentWait<WebDriver> wait = new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(1))
-                .pollingEvery(Duration.ofMillis(200));
-        driver.manage().timeouts().implicitlyWait(200, TimeUnit.MILLISECONDS);
-        driver.findElement(By.id("addFirstName")).sendKeys(arg1);
-        driver.findElement(By.id("addLastName")).sendKeys(arg2);
-        driver.findElement(By.id("addPhoneNumber")).sendKeys("999");
-        driver.findElement(By.id("addLogin")).sendKeys(arg1);
-        driver.findElement(By.id("addPassword")).sendKeys(arg2);
-        driver.findElement(By.id("butAddUser")).submit();
-        navLinkTable.click();
-        wait.until(driver -> {
-            User user = userService.getUserByLogin(arg1);
-            return user.getLogin().equals(arg1);
+    public void пользователь_с_логином_и_паролем_добавляется_корретно(String login, String password) throws Throwable {
+        wait.until(ExpectedConditions.elementToBeClickable(mainPage.getAddFirstName()));
+        mainPage.addUser("Testing",
+                "Add user",
+                login,
+                password,
+                "9999",
+                "user");
+        mainPage.getUserTable().click();
+        fluentWait.until(driver -> {
+            User user = userService.getUserByLogin(login);
+            return user.getLogin().equals(login);
         });
     }
 
     @Если("^на сервере существует такой же логин \"([^\"]*)\" с паролем \"([^\"]*)\"$")
-    public void на_сервере_существует_такой_же_логин_с_паролем(String arg1, String arg2) throws Throwable {
-        if (!userService.getUserByLogin(arg1).getLogin().equals(arg1)) {
+    public void на_сервере_существует_такой_же_логин_с_паролем(String login, String password) throws Throwable {
+        if (!userService.getUserByLogin(login).getLogin().equals(login)) {
             User user = new User(
-                    arg1,
-                    arg2,
-                    arg1,
-                    arg2,
+                    login,
+                    password,
+                    login,
+                    password,
                     999L,
                     new Role("admin")
-                    );
+            );
             userService.addUser(user);
         }
     }
 
     @Тогда("^пользователь с логином \"([^\"]*)\" и паролем \"([^\"]*)\" не добавляется$")
-    public void пользователь_с_логином_и_паролем_не_добавляется(String arg1, String arg2) throws Throwable {
-        driver.findElement(By.id("navAddForm")).click();
-        driver.manage().timeouts().implicitlyWait(200, TimeUnit.MILLISECONDS);
-        driver.findElement(By.id("addFirstName")).sendKeys(arg1);
-        driver.findElement(By.id("addLastName")).sendKeys(arg2);
-        driver.findElement(By.id("addPhoneNumber")).sendKeys("999");
-        driver.findElement(By.id("addLogin")).sendKeys(arg1);
-        driver.findElement(By.id("addPassword")).sendKeys(arg2);
-        driver.findElement(By.id("butAddUser")).submit();
-        assert driver.findElement(By.id("errorInAddUser")).isDisplayed();
+    public void пользователь_с_логином_и_паролем_не_добавляется(String login, String password) throws Throwable {
+        mainPage.getAddUserForm().click();
+        wait.until(ExpectedConditions.elementToBeClickable(mainPage.getAddFirstName()));
+        mainPage.addUser("Negative testing",
+                "Add user",
+                login,
+                password,
+                "999",
+                "user");
+        assert mainPage.getErrorInAddUser().isDisplayed();
     }
 }

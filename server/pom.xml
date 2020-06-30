@@ -46,22 +46,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>com.oracle</groupId>-->
-<!--            <artifactId>ojdbc</artifactId>-->
-<!--            <version>10</version>-->
-<!--            <scope>system</scope>-->
-<!--            <systemPath>${basedir}/lib/ojdbc8.jar</systemPath>-->
-<!--        </dependency>-->
-
-
-                <dependency>
-                    <groupId>com.oracle</groupId>
-                    <artifactId>ojdbc6</artifactId>
-                    <version>11.2.0.4</version>
-<!--                    <scope>system</scope>-->
-<!--                    <systemPath>${basedir}/lib/ojdbc6.jar</systemPath>-->
-                </dependency>
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc6</artifactId>
+            <version>11.2.0.4</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -201,6 +190,18 @@
 <!--            <artifactId>page-factory-core</artifactId>-->
 <!--            <version>15.4.3</version>-->
 <!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>ru.sbtqa.tag.pagefactory</groupId>-->
+<!--            <artifactId>web-plugin</artifactId>-->
+<!--            <version>15.4.3</version>-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>ru.sbtqa.tag</groupId>
+            <artifactId>page-factory</artifactId>
+            <version>1.12.0</version>
+        </dependency>
 
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
